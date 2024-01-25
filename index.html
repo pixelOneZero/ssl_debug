@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            debugging SSL cert issues
+        </title>
+    </head>
+    <body>
+        Check these links for non-secure responses, and add redirects to .htaccess if needed:
+        <ul>
+            <li>
+                <a href="http://jessiepk.com">http://jessiepk.com</a>. Result: Not secure.
+            </li>
+            <li>
+                <a href="https://jessiepk.com">https://jessiepk.com</a>. Result: Not secure.
+            </li>
+            <li>
+                <a href="https://www.jessiepk.com">https://www.jessiepk.com</a>. Result: Secure.
+            </li>
+            <li>
+                <a href="http://www.jessiepk.com/">http://www.jessiepk.com/</a>. Result: Secure.
+            </li>
+        </ul>
+    </body>
+</html>
